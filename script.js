@@ -1,0 +1,1 @@
+// JavaScript logic for Mais Ali Edition - 30 substance cards go here
