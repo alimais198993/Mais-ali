@@ -1,16 +1,20 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>LCMS Substance Finder - Mais Ali Edition</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>LCMS Substance Finder - Mais Ali</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>LCMS Substance Finder - Mais Ali Edition</h1>
-    <input type="text" id="searchBox" placeholder="Search or ابحث عن مادة..." oninput="searchSubstance()">
-    <div id="results" class="results"></div>
-  </div>
-  <script src="script.js"></script>
+    <h1 id="mainTitle">مستعرض مواد LCMS - ميس علي</h1>
+    <div style="margin-bottom: 10px;">
+        <button id="showAll">عرض جميع المواد</button>
+        <button id="toggleLang">English</button>
+    </div>
+    <input type="text" id="search" placeholder="اكتب أول حرفين من اسم المادة...">
+    <div id="results"></div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
