@@ -15,8 +15,3 @@ input {
     border: 1px solid #ccc;
     margin-bottom: 10px;
 }
-button {
-    padding: 8px 12px;
-    margin-right: 10px;
-    cursor: pointer;
-}
